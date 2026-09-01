@@ -1,0 +1,50 @@
+# Python/cache
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local Git metadata accidentally copied from source snapshots
+**/.git/
+
+# Datasets / large local test material
+vox/
+**/vox/
+**/testing_data/
+
+# Checkpoints are distributed separately as release assets
+*.pth
+*.pth.tar
+checkpoint*/
+checkpoints/
+
+# Training/runtime logs and generated results
+*.log
+benchmark_results/
+benchmark_results*/
+results/
+outputs/
+predictions/
+video_panels/
+train-vis/
+adaptive-dists-curves/
+
+# Physical codec generated data
+shared_anchor_channel_gop4/
+physical_channel_gop4*/
+codec_recon_gop4*/
+actual_bitstream_rates*.csv
+per_video_codec_errors.log
+
+# Temporary arrays/caches
+.cache/
+*.npy
+*.npz
+*.mat
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

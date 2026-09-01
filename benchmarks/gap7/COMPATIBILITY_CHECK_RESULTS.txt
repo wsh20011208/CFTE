@@ -1,0 +1,61 @@
+Compatibility check against uploaded projects
+================================================
+
+Projects inspected
+------------------
+1. CFTE
+2. CFTE_NoRefine
+3. CFTE_Refined_FixedCMR
+4. CFTE_Refined_AdaptiveCMR
+
+Verified source interfaces
+--------------------------
+- All four projects use generator.forward(source_image, heatmap_source, heatmap_driving).
+- NoRefine and FixedCMR use:
+  forward_superposed_after_deform(source_past, source_future,
+      generated_past, generated_future, weight_past, weight_future).
+- AdaptiveCMR additionally requires target_image and dists_model.
+- All three dual-reference projects return the final post-superposition:
+  occlusion_map: [B,1,64,64]
+  deformed_feature: [B,256,64,64]
+  deformed: [B,3,256,256]
+- Single CFTE returns occlusion_map but not deformed_feature. The revised
+  benchmark reconstructs the exact pre-mask feature from the generator's
+  first/down_blocks/deform_input path.
+- Dual checkpoint loaders accept branch-specific keys and legacy/shared
+  fallback keys.
+- The project-local modules/DISTS.pt and evaluate/weights/DISTS.pt files are
+  byte-identical in all four projects.
+
+Compatibility corrections made
+------------------------------
+- Added finite Single CFTE feature-attenuation measurement.
+- Added AdaptiveCMR scalar convergence fields to the CSV.
+- Reused AdaptiveCMR's DISTS network for final metric evaluation to reduce GPU
+  memory.
+- Added CUDA device selection with torch.cuda.set_device().
+- Added a fail-fast CUDA check because dense_motion.py contains explicit
+  Tensor.cuda() calls.
+- Replaced the unbounded all-video RAM cache with a one-video cache.
+- Streamed optional per-video panels to disk instead of holding all panels in
+  RAM.
+- Replaced hard-coded epoch-999 checkpoint paths with latest-checkpoint
+  discovery plus explicit environment-variable overrides.
+- Added preflight_check.py for dependencies, CUDA, project interfaces, local
+  metric weights, and checkpoint keys.
+
+Validation performed
+--------------------
+- Python syntax check: passed.
+- Bash syntax check: passed.
+- Interface smoke test with the uploaded source trees: passed for all four
+  methods using synthetic 256x256 tensors and local dependency/CUDA stubs.
+- Confirmed finite occlusion feature attenuation for all four methods.
+- Confirmed AdaptiveCMR convergence scalars are exported.
+
+Not performed here
+------------------
+- Real checkpoint loading and full CUDA inference, because the uploaded project
+  archives do not include the server checkpoints and this sandbox has no CUDA.
+  The included preflight script performs checkpoint-key validation on the
+  server before the benchmark starts.
