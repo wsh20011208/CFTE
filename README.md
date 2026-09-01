@@ -34,13 +34,17 @@ The reported controlled experiments use:
 | FixedCMR | 10 | 200 | 10 |
 | AdaptiveCMR | 8 | 200 | 10 |
 
-Each project contains `config/vox-256_gap3.yaml`, `vox-256_gap5.yaml`, and `vox-256_gap7.yaml`.
+Each project contains:
 
-`config/vox-256.yaml` is included only as a **gap-3 compatibility alias** for legacy scripts. Formal gap-specific reproduction should always use the explicitly named gap configuration.
+- `config/vox-256_gap3.yaml`
+- `config/vox-256_gap5.yaml`
+- `config/vox-256_gap7.yaml`
+
+`config/vox-256.yaml` is included only as a **gap-3 compatibility alias** for legacy scripts. Formal gap-specific reproduction should use the explicitly named gap configuration.
 
 ## Formal benchmark
 
-The three benchmark directories are gap-specific. Their `run_four_models_example.sh` wrappers use the corresponding gap configuration and require the corresponding final epoch-199 checkpoint.
+The three benchmark directories are gap-specific. Their `run_four_models_example.sh` wrappers use the corresponding gap configuration and expect the corresponding final epoch-199 checkpoint.
 
 Matched target counts in the reported results:
 
@@ -49,28 +53,79 @@ Matched target counts in the reported results:
 - gap 7: 13,627
 - total: 42,841
 
-The formal benchmark reports DISTS, LPIPS, PSNR, SSIM and likelihood-estimated BPP.
+The formal benchmark reports:
+
+- DISTS
+- LPIPS
+- PSNR
+- SSIM
+- likelihood-estimated BPP
 
 ## Supplementary physical-bitstream experiment
 
 See `physical_bitstream/README.md`.
 
-This experiment is a dense GOP-4 implementation-level demonstration using gap-3-trained checkpoints, VTM anchor coding at QP 32 and real entropy-coded compact-residual byte streams. It is not a replacement for the strict symmetric gap-3/5/7 benchmark.
+This experiment is a dense GOP-4 implementation-level demonstration using gap-3-trained checkpoints, VTM anchor coding at QP 32, and actual entropy-coded compact-residual byte streams. It is supplementary to the strict symmetric gap-3/5/7 benchmark rather than a replacement for it.
 
-**AdaptiveCMR caveat:** the true target frame is supplied directly to the decoder as DISTS oracle information. The bitrate required to provide that target is excluded; AdaptiveCMR must therefore not be interpreted as a deployable target-free codec.
+The physical-bitstream pipeline uses:
 
-## Data
+- shared VTM-reconstructed anchors
+- one compact residual stream per inter frame for **Single CFTE**
+- two compact residual streams per inter frame for **NoRefine**, **FixedCMR**, and **AdaptiveCMR**
+- an error-free file-based digital channel
 
-The VoxCeleb-derived data are not redistributed in this repository. Configure the benchmark/data paths for your own processed dataset.
+**AdaptiveCMR caveat:** the true target frame is supplied directly to the decoder as DISTS oracle information. The bitrate required to provide that oracle target is excluded from the reported transmitted-bit counts. AdaptiveCMR should therefore not be interpreted as a deployable target-free codec.
+
+## Reconstruction outputs
+
+The reconstructed outputs of the supplementary dense GOP-4 physical-bitstream experiment are distributed through the GitHub Release:
+
+**[`v1.0.0-thesis` — Thesis Final Archive and Reconstruction Outputs](https://github.com/wsh20011208/CFTE/releases/tag/v1.0.0-thesis)**
+
+The release contains:
+
+```text
+codec_recon_gop4_fast.zip
+```
+
+with **1,776 reconstructed MP4 files** in total:
+
+- 444 Single CFTE reconstructions
+- 444 NoRefine reconstructions
+- 444 FixedCMR reconstructions
+- 444 AdaptiveCMR oracle reconstructions
+
+All four methods use the same 444-video test set, and the supplementary experiment uses VTM anchor coding at QP 32.
+
+The original VoxCeleb source videos are **not redistributed**.
+
+The released MP4 files are reconstruction/visualization outputs. Their MP4 container sizes are **not** used as transmitted bitrate in the thesis.
 
 ## Checkpoints
 
-Large final checkpoints should be distributed through a GitHub Release rather than normal Git history.
+Pretrained checkpoints are **not distributed** with this archive.
+
+The repository contains the complete source code, gap-specific training configurations, benchmark scripts, and supplementary physical-bitstream implementation.
+
+To reproduce a trained model for gap 3, 5, or 7:
+
+1. select the corresponding `vox-256_gap*.yaml` configuration;
+2. train the desired method using that configuration;
+3. retain the final epoch-199 checkpoint;
+4. run the matching benchmark under `benchmarks/gap3/`, `benchmarks/gap5/`, or `benchmarks/gap7/`.
+
+The supplementary dense GOP-4 physical-bitstream experiment uses **gap-3-trained checkpoints**.
+
+## Data
+
+The VoxCeleb-derived source data are not redistributed in this repository.
+
+Configure the dataset paths for your own processed VoxCeleb data before training or evaluation.
 
 ## Environment
 
-The project snapshots contain `environment.yml`. Use the archived environment as the software reference for reproduction.
+The archived project snapshots contain `environment.yml`. Use the archived environment specification as the software reference for reproduction.
 
 ## License and upstream code
 
-Retain the original project license files and respect the licenses of CFTE, VTM, CompressAI and all third-party dependencies.
+Retain the original project license files and respect the licenses of CFTE, VTM, CompressAI, VoxCeleb, and all third-party dependencies.
