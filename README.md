@@ -79,9 +79,37 @@ The physical-bitstream pipeline uses:
 
 **AdaptiveCMR caveat:** the true target frame is supplied directly to the decoder as DISTS oracle information. The bitrate required to provide that oracle target is excluded from the reported transmitted-bit counts. AdaptiveCMR should therefore not be interpreted as a deployable target-free codec.
 
+### Authoritative codec path for the thesis
+
+The legacy `Encoder.py` and `Decoder.py` files retained inside the four
+model directories originate from the upstream CFTE implementation and are
+preserved for reference and compatibility.
+
+They are **not used to generate the physical-bitstream results reported in
+this thesis**.
+
+The authoritative encode/decode path for the thesis supplementary
+physical-bitstream experiment is the dense GOP-4 pipeline under:
+
+`physical_bitstream/`
+
+The reported GOP-4 experiment uses:
+
+- `prepare_shared_anchors_gop4.py` for shared VTM anchor preparation;
+- `encode_streams_gop4_fast.py` for compact-residual entropy coding;
+- `decode_channel_gop4_fast.py` for decoder-side reconstruction;
+- `run_per_video_codec_gop4.py` / `run_per_video_codec_gop4.sh` for
+  per-video orchestration.
+
+The experiment uses gap-3-trained checkpoints, shared VTM-reconstructed
+anchors at QP 32, and actual entropy-coded compact-residual byte streams.
+
+The legacy per-model `Encoder.py` / `Decoder.py` path should therefore not
+be used to reproduce the physical-bitstream measurements reported in the thesis.
+
 ## Reconstruction outputs
 
-The reconstructed outputs of the supplementary dense GOP-4 physical-bitstream experiment are distributed through the GitHub Release:
+The generated GOP-4 physical-channel and reconstruction outputs are included in the repository, while packaged archives are additionally provided through the GitHub Releases. The reconstructed outputs of the supplementary dense GOP-4 physical-bitstream experiment are distributed through the GitHub Release:
 
 **[`v1.0.0-thesis` — Thesis Final Archive and Reconstruction Outputs](https://github.com/wsh20011208/CFTE/releases/tag/v1.0.0-thesis)**
 
