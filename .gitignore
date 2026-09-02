@@ -21,9 +21,6 @@ checkpoints/
 
 # Training/runtime logs and generated results
 *.log
-benchmark_results/
-benchmark_results*/
-results/
 outputs/
 predictions/
 video_panels/
