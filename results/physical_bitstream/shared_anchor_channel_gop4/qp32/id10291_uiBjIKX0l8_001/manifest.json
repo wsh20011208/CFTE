@@ -1,0 +1,252 @@
+{
+  "complete": true,
+  "format_version": 2,
+  "channel_model": "error-free digital channel",
+  "anchor_codec": "VTM10 low-delay config, one independently coded frame per anchor",
+  "source_video": "id10291_uiBjIKX0l8_001.mp4",
+  "qp": 32,
+  "gop": 4,
+  "fps": 25.0,
+  "num_frames": 128,
+  "width": 256,
+  "height": 256,
+  "anchors": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48,
+    52,
+    56,
+    60,
+    64,
+    68,
+    72,
+    76,
+    80,
+    84,
+    88,
+    92,
+    96,
+    100,
+    104,
+    108,
+    112,
+    116,
+    120,
+    124,
+    127
+  ],
+  "num_anchors": 33,
+  "anchor_records": {
+    "0": {
+      "frame": 0,
+      "bin": "anchors/frame_000000.bin",
+      "receiver_cache": "receiver_cache/frame_000000.npy",
+      "bytes": 5354
+    },
+    "4": {
+      "frame": 4,
+      "bin": "anchors/frame_000004.bin",
+      "receiver_cache": "receiver_cache/frame_000004.npy",
+      "bytes": 5398
+    },
+    "8": {
+      "frame": 8,
+      "bin": "anchors/frame_000008.bin",
+      "receiver_cache": "receiver_cache/frame_000008.npy",
+      "bytes": 4921
+    },
+    "12": {
+      "frame": 12,
+      "bin": "anchors/frame_000012.bin",
+      "receiver_cache": "receiver_cache/frame_000012.npy",
+      "bytes": 5316
+    },
+    "16": {
+      "frame": 16,
+      "bin": "anchors/frame_000016.bin",
+      "receiver_cache": "receiver_cache/frame_000016.npy",
+      "bytes": 5842
+    },
+    "20": {
+      "frame": 20,
+      "bin": "anchors/frame_000020.bin",
+      "receiver_cache": "receiver_cache/frame_000020.npy",
+      "bytes": 5798
+    },
+    "24": {
+      "frame": 24,
+      "bin": "anchors/frame_000024.bin",
+      "receiver_cache": "receiver_cache/frame_000024.npy",
+      "bytes": 5923
+    },
+    "28": {
+      "frame": 28,
+      "bin": "anchors/frame_000028.bin",
+      "receiver_cache": "receiver_cache/frame_000028.npy",
+      "bytes": 5802
+    },
+    "32": {
+      "frame": 32,
+      "bin": "anchors/frame_000032.bin",
+      "receiver_cache": "receiver_cache/frame_000032.npy",
+      "bytes": 5685
+    },
+    "36": {
+      "frame": 36,
+      "bin": "anchors/frame_000036.bin",
+      "receiver_cache": "receiver_cache/frame_000036.npy",
+      "bytes": 5784
+    },
+    "40": {
+      "frame": 40,
+      "bin": "anchors/frame_000040.bin",
+      "receiver_cache": "receiver_cache/frame_000040.npy",
+      "bytes": 5736
+    },
+    "44": {
+      "frame": 44,
+      "bin": "anchors/frame_000044.bin",
+      "receiver_cache": "receiver_cache/frame_000044.npy",
+      "bytes": 5706
+    },
+    "48": {
+      "frame": 48,
+      "bin": "anchors/frame_000048.bin",
+      "receiver_cache": "receiver_cache/frame_000048.npy",
+      "bytes": 5794
+    },
+    "52": {
+      "frame": 52,
+      "bin": "anchors/frame_000052.bin",
+      "receiver_cache": "receiver_cache/frame_000052.npy",
+      "bytes": 5988
+    },
+    "56": {
+      "frame": 56,
+      "bin": "anchors/frame_000056.bin",
+      "receiver_cache": "receiver_cache/frame_000056.npy",
+      "bytes": 5701
+    },
+    "60": {
+      "frame": 60,
+      "bin": "anchors/frame_000060.bin",
+      "receiver_cache": "receiver_cache/frame_000060.npy",
+      "bytes": 5610
+    },
+    "64": {
+      "frame": 64,
+      "bin": "anchors/frame_000064.bin",
+      "receiver_cache": "receiver_cache/frame_000064.npy",
+      "bytes": 5745
+    },
+    "68": {
+      "frame": 68,
+      "bin": "anchors/frame_000068.bin",
+      "receiver_cache": "receiver_cache/frame_000068.npy",
+      "bytes": 5545
+    },
+    "72": {
+      "frame": 72,
+      "bin": "anchors/frame_000072.bin",
+      "receiver_cache": "receiver_cache/frame_000072.npy",
+      "bytes": 5343
+    },
+    "76": {
+      "frame": 76,
+      "bin": "anchors/frame_000076.bin",
+      "receiver_cache": "receiver_cache/frame_000076.npy",
+      "bytes": 5287
+    },
+    "80": {
+      "frame": 80,
+      "bin": "anchors/frame_000080.bin",
+      "receiver_cache": "receiver_cache/frame_000080.npy",
+      "bytes": 5229
+    },
+    "84": {
+      "frame": 84,
+      "bin": "anchors/frame_000084.bin",
+      "receiver_cache": "receiver_cache/frame_000084.npy",
+      "bytes": 5425
+    },
+    "88": {
+      "frame": 88,
+      "bin": "anchors/frame_000088.bin",
+      "receiver_cache": "receiver_cache/frame_000088.npy",
+      "bytes": 5019
+    },
+    "92": {
+      "frame": 92,
+      "bin": "anchors/frame_000092.bin",
+      "receiver_cache": "receiver_cache/frame_000092.npy",
+      "bytes": 5158
+    },
+    "96": {
+      "frame": 96,
+      "bin": "anchors/frame_000096.bin",
+      "receiver_cache": "receiver_cache/frame_000096.npy",
+      "bytes": 5131
+    },
+    "100": {
+      "frame": 100,
+      "bin": "anchors/frame_000100.bin",
+      "receiver_cache": "receiver_cache/frame_000100.npy",
+      "bytes": 5242
+    },
+    "104": {
+      "frame": 104,
+      "bin": "anchors/frame_000104.bin",
+      "receiver_cache": "receiver_cache/frame_000104.npy",
+      "bytes": 5140
+    },
+    "108": {
+      "frame": 108,
+      "bin": "anchors/frame_000108.bin",
+      "receiver_cache": "receiver_cache/frame_000108.npy",
+      "bytes": 4984
+    },
+    "112": {
+      "frame": 112,
+      "bin": "anchors/frame_000112.bin",
+      "receiver_cache": "receiver_cache/frame_000112.npy",
+      "bytes": 5026
+    },
+    "116": {
+      "frame": 116,
+      "bin": "anchors/frame_000116.bin",
+      "receiver_cache": "receiver_cache/frame_000116.npy",
+      "bytes": 5183
+    },
+    "120": {
+      "frame": 120,
+      "bin": "anchors/frame_000120.bin",
+      "receiver_cache": "receiver_cache/frame_000120.npy",
+      "bytes": 5548
+    },
+    "124": {
+      "frame": 124,
+      "bin": "anchors/frame_000124.bin",
+      "receiver_cache": "receiver_cache/frame_000124.npy",
+      "bytes": 5400
+    },
+    "127": {
+      "frame": 127,
+      "bin": "anchors/frame_000127.bin",
+      "receiver_cache": "receiver_cache/frame_000127.npy",
+      "bytes": 5201
+    }
+  },
+  "payload_bytes": 179964,
+  "payload_bits": 1439712,
+  "receiver_cache_note": "receiver_cache/*.npy is the exact VTM-decoded reconstruction derived from the transmitted anchor .bin; cache bytes are not counted as channel payload."
+}

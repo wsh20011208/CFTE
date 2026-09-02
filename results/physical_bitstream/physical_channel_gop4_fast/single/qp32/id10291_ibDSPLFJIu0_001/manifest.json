@@ -1,0 +1,728 @@
+{
+  "complete": true,
+  "format_version": 2,
+  "method": "single",
+  "source_video": "id10291_ibDSPLFJIu0_001.mp4",
+  "qp": 32,
+  "gop": 4,
+  "num_frames": 128,
+  "residual_spatial_shape": [
+    4,
+    4
+  ],
+  "shared_anchor_manifest": "/home/featurize/work/shared_anchor_channel_gop4/qp32/id10291_ibDSPLFJIu0_001/manifest.json",
+  "shared_anchor_payload_bytes": 177252,
+  "method_stream_payload_bytes": 2272,
+  "total_visual_payload_bytes": 179524,
+  "total_visual_payload_bits": 1436192,
+  "frames": {
+    "0": {
+      "type": "anchor",
+      "shared_anchor": 0
+    },
+    "1": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor_boundary": 4,
+      "single_stream": "streams/frame_000001_single.bin"
+    },
+    "2": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor_boundary": 4,
+      "single_stream": "streams/frame_000002_single.bin"
+    },
+    "3": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor_boundary": 4,
+      "single_stream": "streams/frame_000003_single.bin"
+    },
+    "4": {
+      "type": "anchor",
+      "shared_anchor": 4
+    },
+    "5": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor_boundary": 8,
+      "single_stream": "streams/frame_000005_single.bin"
+    },
+    "6": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor_boundary": 8,
+      "single_stream": "streams/frame_000006_single.bin"
+    },
+    "7": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor_boundary": 8,
+      "single_stream": "streams/frame_000007_single.bin"
+    },
+    "8": {
+      "type": "anchor",
+      "shared_anchor": 8
+    },
+    "9": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor_boundary": 12,
+      "single_stream": "streams/frame_000009_single.bin"
+    },
+    "10": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor_boundary": 12,
+      "single_stream": "streams/frame_000010_single.bin"
+    },
+    "11": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor_boundary": 12,
+      "single_stream": "streams/frame_000011_single.bin"
+    },
+    "12": {
+      "type": "anchor",
+      "shared_anchor": 12
+    },
+    "13": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor_boundary": 16,
+      "single_stream": "streams/frame_000013_single.bin"
+    },
+    "14": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor_boundary": 16,
+      "single_stream": "streams/frame_000014_single.bin"
+    },
+    "15": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor_boundary": 16,
+      "single_stream": "streams/frame_000015_single.bin"
+    },
+    "16": {
+      "type": "anchor",
+      "shared_anchor": 16
+    },
+    "17": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor_boundary": 20,
+      "single_stream": "streams/frame_000017_single.bin"
+    },
+    "18": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor_boundary": 20,
+      "single_stream": "streams/frame_000018_single.bin"
+    },
+    "19": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor_boundary": 20,
+      "single_stream": "streams/frame_000019_single.bin"
+    },
+    "20": {
+      "type": "anchor",
+      "shared_anchor": 20
+    },
+    "21": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor_boundary": 24,
+      "single_stream": "streams/frame_000021_single.bin"
+    },
+    "22": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor_boundary": 24,
+      "single_stream": "streams/frame_000022_single.bin"
+    },
+    "23": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor_boundary": 24,
+      "single_stream": "streams/frame_000023_single.bin"
+    },
+    "24": {
+      "type": "anchor",
+      "shared_anchor": 24
+    },
+    "25": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor_boundary": 28,
+      "single_stream": "streams/frame_000025_single.bin"
+    },
+    "26": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor_boundary": 28,
+      "single_stream": "streams/frame_000026_single.bin"
+    },
+    "27": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor_boundary": 28,
+      "single_stream": "streams/frame_000027_single.bin"
+    },
+    "28": {
+      "type": "anchor",
+      "shared_anchor": 28
+    },
+    "29": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor_boundary": 32,
+      "single_stream": "streams/frame_000029_single.bin"
+    },
+    "30": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor_boundary": 32,
+      "single_stream": "streams/frame_000030_single.bin"
+    },
+    "31": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor_boundary": 32,
+      "single_stream": "streams/frame_000031_single.bin"
+    },
+    "32": {
+      "type": "anchor",
+      "shared_anchor": 32
+    },
+    "33": {
+      "type": "inter",
+      "past_anchor": 32,
+      "future_anchor_boundary": 36,
+      "single_stream": "streams/frame_000033_single.bin"
+    },
+    "34": {
+      "type": "inter",
+      "past_anchor": 32,
+      "future_anchor_boundary": 36,
+      "single_stream": "streams/frame_000034_single.bin"
+    },
+    "35": {
+      "type": "inter",
+      "past_anchor": 32,
+      "future_anchor_boundary": 36,
+      "single_stream": "streams/frame_000035_single.bin"
+    },
+    "36": {
+      "type": "anchor",
+      "shared_anchor": 36
+    },
+    "37": {
+      "type": "inter",
+      "past_anchor": 36,
+      "future_anchor_boundary": 40,
+      "single_stream": "streams/frame_000037_single.bin"
+    },
+    "38": {
+      "type": "inter",
+      "past_anchor": 36,
+      "future_anchor_boundary": 40,
+      "single_stream": "streams/frame_000038_single.bin"
+    },
+    "39": {
+      "type": "inter",
+      "past_anchor": 36,
+      "future_anchor_boundary": 40,
+      "single_stream": "streams/frame_000039_single.bin"
+    },
+    "40": {
+      "type": "anchor",
+      "shared_anchor": 40
+    },
+    "41": {
+      "type": "inter",
+      "past_anchor": 40,
+      "future_anchor_boundary": 44,
+      "single_stream": "streams/frame_000041_single.bin"
+    },
+    "42": {
+      "type": "inter",
+      "past_anchor": 40,
+      "future_anchor_boundary": 44,
+      "single_stream": "streams/frame_000042_single.bin"
+    },
+    "43": {
+      "type": "inter",
+      "past_anchor": 40,
+      "future_anchor_boundary": 44,
+      "single_stream": "streams/frame_000043_single.bin"
+    },
+    "44": {
+      "type": "anchor",
+      "shared_anchor": 44
+    },
+    "45": {
+      "type": "inter",
+      "past_anchor": 44,
+      "future_anchor_boundary": 48,
+      "single_stream": "streams/frame_000045_single.bin"
+    },
+    "46": {
+      "type": "inter",
+      "past_anchor": 44,
+      "future_anchor_boundary": 48,
+      "single_stream": "streams/frame_000046_single.bin"
+    },
+    "47": {
+      "type": "inter",
+      "past_anchor": 44,
+      "future_anchor_boundary": 48,
+      "single_stream": "streams/frame_000047_single.bin"
+    },
+    "48": {
+      "type": "anchor",
+      "shared_anchor": 48
+    },
+    "49": {
+      "type": "inter",
+      "past_anchor": 48,
+      "future_anchor_boundary": 52,
+      "single_stream": "streams/frame_000049_single.bin"
+    },
+    "50": {
+      "type": "inter",
+      "past_anchor": 48,
+      "future_anchor_boundary": 52,
+      "single_stream": "streams/frame_000050_single.bin"
+    },
+    "51": {
+      "type": "inter",
+      "past_anchor": 48,
+      "future_anchor_boundary": 52,
+      "single_stream": "streams/frame_000051_single.bin"
+    },
+    "52": {
+      "type": "anchor",
+      "shared_anchor": 52
+    },
+    "53": {
+      "type": "inter",
+      "past_anchor": 52,
+      "future_anchor_boundary": 56,
+      "single_stream": "streams/frame_000053_single.bin"
+    },
+    "54": {
+      "type": "inter",
+      "past_anchor": 52,
+      "future_anchor_boundary": 56,
+      "single_stream": "streams/frame_000054_single.bin"
+    },
+    "55": {
+      "type": "inter",
+      "past_anchor": 52,
+      "future_anchor_boundary": 56,
+      "single_stream": "streams/frame_000055_single.bin"
+    },
+    "56": {
+      "type": "anchor",
+      "shared_anchor": 56
+    },
+    "57": {
+      "type": "inter",
+      "past_anchor": 56,
+      "future_anchor_boundary": 60,
+      "single_stream": "streams/frame_000057_single.bin"
+    },
+    "58": {
+      "type": "inter",
+      "past_anchor": 56,
+      "future_anchor_boundary": 60,
+      "single_stream": "streams/frame_000058_single.bin"
+    },
+    "59": {
+      "type": "inter",
+      "past_anchor": 56,
+      "future_anchor_boundary": 60,
+      "single_stream": "streams/frame_000059_single.bin"
+    },
+    "60": {
+      "type": "anchor",
+      "shared_anchor": 60
+    },
+    "61": {
+      "type": "inter",
+      "past_anchor": 60,
+      "future_anchor_boundary": 64,
+      "single_stream": "streams/frame_000061_single.bin"
+    },
+    "62": {
+      "type": "inter",
+      "past_anchor": 60,
+      "future_anchor_boundary": 64,
+      "single_stream": "streams/frame_000062_single.bin"
+    },
+    "63": {
+      "type": "inter",
+      "past_anchor": 60,
+      "future_anchor_boundary": 64,
+      "single_stream": "streams/frame_000063_single.bin"
+    },
+    "64": {
+      "type": "anchor",
+      "shared_anchor": 64
+    },
+    "65": {
+      "type": "inter",
+      "past_anchor": 64,
+      "future_anchor_boundary": 68,
+      "single_stream": "streams/frame_000065_single.bin"
+    },
+    "66": {
+      "type": "inter",
+      "past_anchor": 64,
+      "future_anchor_boundary": 68,
+      "single_stream": "streams/frame_000066_single.bin"
+    },
+    "67": {
+      "type": "inter",
+      "past_anchor": 64,
+      "future_anchor_boundary": 68,
+      "single_stream": "streams/frame_000067_single.bin"
+    },
+    "68": {
+      "type": "anchor",
+      "shared_anchor": 68
+    },
+    "69": {
+      "type": "inter",
+      "past_anchor": 68,
+      "future_anchor_boundary": 72,
+      "single_stream": "streams/frame_000069_single.bin"
+    },
+    "70": {
+      "type": "inter",
+      "past_anchor": 68,
+      "future_anchor_boundary": 72,
+      "single_stream": "streams/frame_000070_single.bin"
+    },
+    "71": {
+      "type": "inter",
+      "past_anchor": 68,
+      "future_anchor_boundary": 72,
+      "single_stream": "streams/frame_000071_single.bin"
+    },
+    "72": {
+      "type": "anchor",
+      "shared_anchor": 72
+    },
+    "73": {
+      "type": "inter",
+      "past_anchor": 72,
+      "future_anchor_boundary": 76,
+      "single_stream": "streams/frame_000073_single.bin"
+    },
+    "74": {
+      "type": "inter",
+      "past_anchor": 72,
+      "future_anchor_boundary": 76,
+      "single_stream": "streams/frame_000074_single.bin"
+    },
+    "75": {
+      "type": "inter",
+      "past_anchor": 72,
+      "future_anchor_boundary": 76,
+      "single_stream": "streams/frame_000075_single.bin"
+    },
+    "76": {
+      "type": "anchor",
+      "shared_anchor": 76
+    },
+    "77": {
+      "type": "inter",
+      "past_anchor": 76,
+      "future_anchor_boundary": 80,
+      "single_stream": "streams/frame_000077_single.bin"
+    },
+    "78": {
+      "type": "inter",
+      "past_anchor": 76,
+      "future_anchor_boundary": 80,
+      "single_stream": "streams/frame_000078_single.bin"
+    },
+    "79": {
+      "type": "inter",
+      "past_anchor": 76,
+      "future_anchor_boundary": 80,
+      "single_stream": "streams/frame_000079_single.bin"
+    },
+    "80": {
+      "type": "anchor",
+      "shared_anchor": 80
+    },
+    "81": {
+      "type": "inter",
+      "past_anchor": 80,
+      "future_anchor_boundary": 84,
+      "single_stream": "streams/frame_000081_single.bin"
+    },
+    "82": {
+      "type": "inter",
+      "past_anchor": 80,
+      "future_anchor_boundary": 84,
+      "single_stream": "streams/frame_000082_single.bin"
+    },
+    "83": {
+      "type": "inter",
+      "past_anchor": 80,
+      "future_anchor_boundary": 84,
+      "single_stream": "streams/frame_000083_single.bin"
+    },
+    "84": {
+      "type": "anchor",
+      "shared_anchor": 84
+    },
+    "85": {
+      "type": "inter",
+      "past_anchor": 84,
+      "future_anchor_boundary": 88,
+      "single_stream": "streams/frame_000085_single.bin"
+    },
+    "86": {
+      "type": "inter",
+      "past_anchor": 84,
+      "future_anchor_boundary": 88,
+      "single_stream": "streams/frame_000086_single.bin"
+    },
+    "87": {
+      "type": "inter",
+      "past_anchor": 84,
+      "future_anchor_boundary": 88,
+      "single_stream": "streams/frame_000087_single.bin"
+    },
+    "88": {
+      "type": "anchor",
+      "shared_anchor": 88
+    },
+    "89": {
+      "type": "inter",
+      "past_anchor": 88,
+      "future_anchor_boundary": 92,
+      "single_stream": "streams/frame_000089_single.bin"
+    },
+    "90": {
+      "type": "inter",
+      "past_anchor": 88,
+      "future_anchor_boundary": 92,
+      "single_stream": "streams/frame_000090_single.bin"
+    },
+    "91": {
+      "type": "inter",
+      "past_anchor": 88,
+      "future_anchor_boundary": 92,
+      "single_stream": "streams/frame_000091_single.bin"
+    },
+    "92": {
+      "type": "anchor",
+      "shared_anchor": 92
+    },
+    "93": {
+      "type": "inter",
+      "past_anchor": 92,
+      "future_anchor_boundary": 96,
+      "single_stream": "streams/frame_000093_single.bin"
+    },
+    "94": {
+      "type": "inter",
+      "past_anchor": 92,
+      "future_anchor_boundary": 96,
+      "single_stream": "streams/frame_000094_single.bin"
+    },
+    "95": {
+      "type": "inter",
+      "past_anchor": 92,
+      "future_anchor_boundary": 96,
+      "single_stream": "streams/frame_000095_single.bin"
+    },
+    "96": {
+      "type": "anchor",
+      "shared_anchor": 96
+    },
+    "97": {
+      "type": "inter",
+      "past_anchor": 96,
+      "future_anchor_boundary": 100,
+      "single_stream": "streams/frame_000097_single.bin"
+    },
+    "98": {
+      "type": "inter",
+      "past_anchor": 96,
+      "future_anchor_boundary": 100,
+      "single_stream": "streams/frame_000098_single.bin"
+    },
+    "99": {
+      "type": "inter",
+      "past_anchor": 96,
+      "future_anchor_boundary": 100,
+      "single_stream": "streams/frame_000099_single.bin"
+    },
+    "100": {
+      "type": "anchor",
+      "shared_anchor": 100
+    },
+    "101": {
+      "type": "inter",
+      "past_anchor": 100,
+      "future_anchor_boundary": 104,
+      "single_stream": "streams/frame_000101_single.bin"
+    },
+    "102": {
+      "type": "inter",
+      "past_anchor": 100,
+      "future_anchor_boundary": 104,
+      "single_stream": "streams/frame_000102_single.bin"
+    },
+    "103": {
+      "type": "inter",
+      "past_anchor": 100,
+      "future_anchor_boundary": 104,
+      "single_stream": "streams/frame_000103_single.bin"
+    },
+    "104": {
+      "type": "anchor",
+      "shared_anchor": 104
+    },
+    "105": {
+      "type": "inter",
+      "past_anchor": 104,
+      "future_anchor_boundary": 108,
+      "single_stream": "streams/frame_000105_single.bin"
+    },
+    "106": {
+      "type": "inter",
+      "past_anchor": 104,
+      "future_anchor_boundary": 108,
+      "single_stream": "streams/frame_000106_single.bin"
+    },
+    "107": {
+      "type": "inter",
+      "past_anchor": 104,
+      "future_anchor_boundary": 108,
+      "single_stream": "streams/frame_000107_single.bin"
+    },
+    "108": {
+      "type": "anchor",
+      "shared_anchor": 108
+    },
+    "109": {
+      "type": "inter",
+      "past_anchor": 108,
+      "future_anchor_boundary": 112,
+      "single_stream": "streams/frame_000109_single.bin"
+    },
+    "110": {
+      "type": "inter",
+      "past_anchor": 108,
+      "future_anchor_boundary": 112,
+      "single_stream": "streams/frame_000110_single.bin"
+    },
+    "111": {
+      "type": "inter",
+      "past_anchor": 108,
+      "future_anchor_boundary": 112,
+      "single_stream": "streams/frame_000111_single.bin"
+    },
+    "112": {
+      "type": "anchor",
+      "shared_anchor": 112
+    },
+    "113": {
+      "type": "inter",
+      "past_anchor": 112,
+      "future_anchor_boundary": 116,
+      "single_stream": "streams/frame_000113_single.bin"
+    },
+    "114": {
+      "type": "inter",
+      "past_anchor": 112,
+      "future_anchor_boundary": 116,
+      "single_stream": "streams/frame_000114_single.bin"
+    },
+    "115": {
+      "type": "inter",
+      "past_anchor": 112,
+      "future_anchor_boundary": 116,
+      "single_stream": "streams/frame_000115_single.bin"
+    },
+    "116": {
+      "type": "anchor",
+      "shared_anchor": 116
+    },
+    "117": {
+      "type": "inter",
+      "past_anchor": 116,
+      "future_anchor_boundary": 120,
+      "single_stream": "streams/frame_000117_single.bin"
+    },
+    "118": {
+      "type": "inter",
+      "past_anchor": 116,
+      "future_anchor_boundary": 120,
+      "single_stream": "streams/frame_000118_single.bin"
+    },
+    "119": {
+      "type": "inter",
+      "past_anchor": 116,
+      "future_anchor_boundary": 120,
+      "single_stream": "streams/frame_000119_single.bin"
+    },
+    "120": {
+      "type": "anchor",
+      "shared_anchor": 120
+    },
+    "121": {
+      "type": "inter",
+      "past_anchor": 120,
+      "future_anchor_boundary": 124,
+      "single_stream": "streams/frame_000121_single.bin"
+    },
+    "122": {
+      "type": "inter",
+      "past_anchor": 120,
+      "future_anchor_boundary": 124,
+      "single_stream": "streams/frame_000122_single.bin"
+    },
+    "123": {
+      "type": "inter",
+      "past_anchor": 120,
+      "future_anchor_boundary": 124,
+      "single_stream": "streams/frame_000123_single.bin"
+    },
+    "124": {
+      "type": "anchor",
+      "shared_anchor": 124
+    },
+    "125": {
+      "type": "inter",
+      "past_anchor": 124,
+      "future_anchor_boundary": 127,
+      "single_stream": "streams/frame_000125_single.bin"
+    },
+    "126": {
+      "type": "inter",
+      "past_anchor": 124,
+      "future_anchor_boundary": 127,
+      "single_stream": "streams/frame_000126_single.bin"
+    },
+    "127": {
+      "type": "anchor",
+      "shared_anchor": 127
+    }
+  },
+  "adaptive_oracle": {
+    "enabled": false,
+    "true_It_given_directly_to_decoder": false,
+    "oracle_It_bits_counted": false
+  },
+  "note": "Shared anchor VTM bitstreams are transmitted once and reused. Dense GOP=4 demo uses gap-3-trained checkpoints."
+}

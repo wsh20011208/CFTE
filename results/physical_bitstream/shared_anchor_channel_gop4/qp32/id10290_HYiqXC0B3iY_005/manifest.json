@@ -1,0 +1,154 @@
+{
+  "complete": true,
+  "format_version": 2,
+  "channel_model": "error-free digital channel",
+  "anchor_codec": "VTM10 low-delay config, one independently coded frame per anchor",
+  "source_video": "id10290_HYiqXC0B3iY_005.mp4",
+  "qp": 32,
+  "gop": 4,
+  "fps": 25.0,
+  "num_frames": 72,
+  "width": 256,
+  "height": 256,
+  "anchors": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48,
+    52,
+    56,
+    60,
+    64,
+    68,
+    71
+  ],
+  "num_anchors": 19,
+  "anchor_records": {
+    "0": {
+      "frame": 0,
+      "bin": "anchors/frame_000000.bin",
+      "receiver_cache": "receiver_cache/frame_000000.npy",
+      "bytes": 3480
+    },
+    "4": {
+      "frame": 4,
+      "bin": "anchors/frame_000004.bin",
+      "receiver_cache": "receiver_cache/frame_000004.npy",
+      "bytes": 3608
+    },
+    "8": {
+      "frame": 8,
+      "bin": "anchors/frame_000008.bin",
+      "receiver_cache": "receiver_cache/frame_000008.npy",
+      "bytes": 3754
+    },
+    "12": {
+      "frame": 12,
+      "bin": "anchors/frame_000012.bin",
+      "receiver_cache": "receiver_cache/frame_000012.npy",
+      "bytes": 3771
+    },
+    "16": {
+      "frame": 16,
+      "bin": "anchors/frame_000016.bin",
+      "receiver_cache": "receiver_cache/frame_000016.npy",
+      "bytes": 3799
+    },
+    "20": {
+      "frame": 20,
+      "bin": "anchors/frame_000020.bin",
+      "receiver_cache": "receiver_cache/frame_000020.npy",
+      "bytes": 3871
+    },
+    "24": {
+      "frame": 24,
+      "bin": "anchors/frame_000024.bin",
+      "receiver_cache": "receiver_cache/frame_000024.npy",
+      "bytes": 3894
+    },
+    "28": {
+      "frame": 28,
+      "bin": "anchors/frame_000028.bin",
+      "receiver_cache": "receiver_cache/frame_000028.npy",
+      "bytes": 3857
+    },
+    "32": {
+      "frame": 32,
+      "bin": "anchors/frame_000032.bin",
+      "receiver_cache": "receiver_cache/frame_000032.npy",
+      "bytes": 3862
+    },
+    "36": {
+      "frame": 36,
+      "bin": "anchors/frame_000036.bin",
+      "receiver_cache": "receiver_cache/frame_000036.npy",
+      "bytes": 3824
+    },
+    "40": {
+      "frame": 40,
+      "bin": "anchors/frame_000040.bin",
+      "receiver_cache": "receiver_cache/frame_000040.npy",
+      "bytes": 3706
+    },
+    "44": {
+      "frame": 44,
+      "bin": "anchors/frame_000044.bin",
+      "receiver_cache": "receiver_cache/frame_000044.npy",
+      "bytes": 3773
+    },
+    "48": {
+      "frame": 48,
+      "bin": "anchors/frame_000048.bin",
+      "receiver_cache": "receiver_cache/frame_000048.npy",
+      "bytes": 3492
+    },
+    "52": {
+      "frame": 52,
+      "bin": "anchors/frame_000052.bin",
+      "receiver_cache": "receiver_cache/frame_000052.npy",
+      "bytes": 3548
+    },
+    "56": {
+      "frame": 56,
+      "bin": "anchors/frame_000056.bin",
+      "receiver_cache": "receiver_cache/frame_000056.npy",
+      "bytes": 3402
+    },
+    "60": {
+      "frame": 60,
+      "bin": "anchors/frame_000060.bin",
+      "receiver_cache": "receiver_cache/frame_000060.npy",
+      "bytes": 3377
+    },
+    "64": {
+      "frame": 64,
+      "bin": "anchors/frame_000064.bin",
+      "receiver_cache": "receiver_cache/frame_000064.npy",
+      "bytes": 3308
+    },
+    "68": {
+      "frame": 68,
+      "bin": "anchors/frame_000068.bin",
+      "receiver_cache": "receiver_cache/frame_000068.npy",
+      "bytes": 3329
+    },
+    "71": {
+      "frame": 71,
+      "bin": "anchors/frame_000071.bin",
+      "receiver_cache": "receiver_cache/frame_000071.npy",
+      "bytes": 3293
+    }
+  },
+  "payload_bytes": 68948,
+  "payload_bits": 551584,
+  "receiver_cache_note": "receiver_cache/*.npy is the exact VTM-decoded reconstruction derived from the transmitted anchor .bin; cache bytes are not counted as channel payload."
+}

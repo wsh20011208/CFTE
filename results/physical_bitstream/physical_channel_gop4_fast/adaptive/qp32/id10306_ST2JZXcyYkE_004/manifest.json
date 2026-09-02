@@ -1,0 +1,254 @@
+{
+  "complete": true,
+  "format_version": 2,
+  "method": "adaptive",
+  "source_video": "id10306_ST2JZXcyYkE_004.mp4",
+  "qp": 32,
+  "gop": 4,
+  "num_frames": 33,
+  "residual_spatial_shape": [
+    4,
+    4
+  ],
+  "shared_anchor_manifest": "/home/featurize/work/shared_anchor_channel_gop4/qp32/id10306_ST2JZXcyYkE_004/manifest.json",
+  "shared_anchor_payload_bytes": 21632,
+  "method_stream_payload_bytes": 1292,
+  "total_visual_payload_bytes": 22924,
+  "total_visual_payload_bits": 183392,
+  "frames": {
+    "0": {
+      "type": "anchor",
+      "shared_anchor": 0
+    },
+    "1": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor": 4,
+      "past_stream": "streams/frame_000001_past.bin",
+      "future_stream": "streams/frame_000001_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "2": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor": 4,
+      "past_stream": "streams/frame_000002_past.bin",
+      "future_stream": "streams/frame_000002_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "3": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor": 4,
+      "past_stream": "streams/frame_000003_past.bin",
+      "future_stream": "streams/frame_000003_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "4": {
+      "type": "anchor",
+      "shared_anchor": 4
+    },
+    "5": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor": 8,
+      "past_stream": "streams/frame_000005_past.bin",
+      "future_stream": "streams/frame_000005_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "6": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor": 8,
+      "past_stream": "streams/frame_000006_past.bin",
+      "future_stream": "streams/frame_000006_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "7": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor": 8,
+      "past_stream": "streams/frame_000007_past.bin",
+      "future_stream": "streams/frame_000007_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "8": {
+      "type": "anchor",
+      "shared_anchor": 8
+    },
+    "9": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor": 12,
+      "past_stream": "streams/frame_000009_past.bin",
+      "future_stream": "streams/frame_000009_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "10": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor": 12,
+      "past_stream": "streams/frame_000010_past.bin",
+      "future_stream": "streams/frame_000010_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "11": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor": 12,
+      "past_stream": "streams/frame_000011_past.bin",
+      "future_stream": "streams/frame_000011_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "12": {
+      "type": "anchor",
+      "shared_anchor": 12
+    },
+    "13": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor": 16,
+      "past_stream": "streams/frame_000013_past.bin",
+      "future_stream": "streams/frame_000013_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "14": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor": 16,
+      "past_stream": "streams/frame_000014_past.bin",
+      "future_stream": "streams/frame_000014_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "15": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor": 16,
+      "past_stream": "streams/frame_000015_past.bin",
+      "future_stream": "streams/frame_000015_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "16": {
+      "type": "anchor",
+      "shared_anchor": 16
+    },
+    "17": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor": 20,
+      "past_stream": "streams/frame_000017_past.bin",
+      "future_stream": "streams/frame_000017_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "18": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor": 20,
+      "past_stream": "streams/frame_000018_past.bin",
+      "future_stream": "streams/frame_000018_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "19": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor": 20,
+      "past_stream": "streams/frame_000019_past.bin",
+      "future_stream": "streams/frame_000019_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "20": {
+      "type": "anchor",
+      "shared_anchor": 20
+    },
+    "21": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor": 24,
+      "past_stream": "streams/frame_000021_past.bin",
+      "future_stream": "streams/frame_000021_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "22": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor": 24,
+      "past_stream": "streams/frame_000022_past.bin",
+      "future_stream": "streams/frame_000022_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "23": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor": 24,
+      "past_stream": "streams/frame_000023_past.bin",
+      "future_stream": "streams/frame_000023_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "24": {
+      "type": "anchor",
+      "shared_anchor": 24
+    },
+    "25": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor": 28,
+      "past_stream": "streams/frame_000025_past.bin",
+      "future_stream": "streams/frame_000025_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "26": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor": 28,
+      "past_stream": "streams/frame_000026_past.bin",
+      "future_stream": "streams/frame_000026_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "27": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor": 28,
+      "past_stream": "streams/frame_000027_past.bin",
+      "future_stream": "streams/frame_000027_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "28": {
+      "type": "anchor",
+      "shared_anchor": 28
+    },
+    "29": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor": 32,
+      "past_stream": "streams/frame_000029_past.bin",
+      "future_stream": "streams/frame_000029_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "30": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor": 32,
+      "past_stream": "streams/frame_000030_past.bin",
+      "future_stream": "streams/frame_000030_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "31": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor": 32,
+      "past_stream": "streams/frame_000031_past.bin",
+      "future_stream": "streams/frame_000031_future.bin",
+      "oracle_target_at_decoder": true
+    },
+    "32": {
+      "type": "anchor",
+      "shared_anchor": 32
+    }
+  },
+  "adaptive_oracle": {
+    "enabled": true,
+    "true_It_given_directly_to_decoder": true,
+    "oracle_It_bits_counted": false
+  },
+  "note": "Shared anchor VTM bitstreams are transmitted once and reused. Dense GOP=4 demo uses gap-3-trained checkpoints."
+}

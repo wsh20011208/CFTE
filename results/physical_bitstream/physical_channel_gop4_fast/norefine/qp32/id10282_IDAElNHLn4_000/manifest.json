@@ -1,0 +1,918 @@
+{
+  "complete": true,
+  "format_version": 2,
+  "method": "norefine",
+  "source_video": "id10282_IDAElNHLn4_000.mp4",
+  "qp": 32,
+  "gop": 4,
+  "num_frames": 128,
+  "residual_spatial_shape": [
+    4,
+    4
+  ],
+  "shared_anchor_manifest": "/home/featurize/work/shared_anchor_channel_gop4/qp32/id10282_IDAElNHLn4_000/manifest.json",
+  "shared_anchor_payload_bytes": 133583,
+  "method_stream_payload_bytes": 4336,
+  "total_visual_payload_bytes": 137919,
+  "total_visual_payload_bits": 1103352,
+  "frames": {
+    "0": {
+      "type": "anchor",
+      "shared_anchor": 0
+    },
+    "1": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor": 4,
+      "past_stream": "streams/frame_000001_past.bin",
+      "future_stream": "streams/frame_000001_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "2": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor": 4,
+      "past_stream": "streams/frame_000002_past.bin",
+      "future_stream": "streams/frame_000002_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "3": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor": 4,
+      "past_stream": "streams/frame_000003_past.bin",
+      "future_stream": "streams/frame_000003_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "4": {
+      "type": "anchor",
+      "shared_anchor": 4
+    },
+    "5": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor": 8,
+      "past_stream": "streams/frame_000005_past.bin",
+      "future_stream": "streams/frame_000005_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "6": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor": 8,
+      "past_stream": "streams/frame_000006_past.bin",
+      "future_stream": "streams/frame_000006_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "7": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor": 8,
+      "past_stream": "streams/frame_000007_past.bin",
+      "future_stream": "streams/frame_000007_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "8": {
+      "type": "anchor",
+      "shared_anchor": 8
+    },
+    "9": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor": 12,
+      "past_stream": "streams/frame_000009_past.bin",
+      "future_stream": "streams/frame_000009_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "10": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor": 12,
+      "past_stream": "streams/frame_000010_past.bin",
+      "future_stream": "streams/frame_000010_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "11": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor": 12,
+      "past_stream": "streams/frame_000011_past.bin",
+      "future_stream": "streams/frame_000011_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "12": {
+      "type": "anchor",
+      "shared_anchor": 12
+    },
+    "13": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor": 16,
+      "past_stream": "streams/frame_000013_past.bin",
+      "future_stream": "streams/frame_000013_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "14": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor": 16,
+      "past_stream": "streams/frame_000014_past.bin",
+      "future_stream": "streams/frame_000014_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "15": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor": 16,
+      "past_stream": "streams/frame_000015_past.bin",
+      "future_stream": "streams/frame_000015_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "16": {
+      "type": "anchor",
+      "shared_anchor": 16
+    },
+    "17": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor": 20,
+      "past_stream": "streams/frame_000017_past.bin",
+      "future_stream": "streams/frame_000017_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "18": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor": 20,
+      "past_stream": "streams/frame_000018_past.bin",
+      "future_stream": "streams/frame_000018_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "19": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor": 20,
+      "past_stream": "streams/frame_000019_past.bin",
+      "future_stream": "streams/frame_000019_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "20": {
+      "type": "anchor",
+      "shared_anchor": 20
+    },
+    "21": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor": 24,
+      "past_stream": "streams/frame_000021_past.bin",
+      "future_stream": "streams/frame_000021_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "22": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor": 24,
+      "past_stream": "streams/frame_000022_past.bin",
+      "future_stream": "streams/frame_000022_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "23": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor": 24,
+      "past_stream": "streams/frame_000023_past.bin",
+      "future_stream": "streams/frame_000023_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "24": {
+      "type": "anchor",
+      "shared_anchor": 24
+    },
+    "25": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor": 28,
+      "past_stream": "streams/frame_000025_past.bin",
+      "future_stream": "streams/frame_000025_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "26": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor": 28,
+      "past_stream": "streams/frame_000026_past.bin",
+      "future_stream": "streams/frame_000026_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "27": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor": 28,
+      "past_stream": "streams/frame_000027_past.bin",
+      "future_stream": "streams/frame_000027_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "28": {
+      "type": "anchor",
+      "shared_anchor": 28
+    },
+    "29": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor": 32,
+      "past_stream": "streams/frame_000029_past.bin",
+      "future_stream": "streams/frame_000029_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "30": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor": 32,
+      "past_stream": "streams/frame_000030_past.bin",
+      "future_stream": "streams/frame_000030_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "31": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor": 32,
+      "past_stream": "streams/frame_000031_past.bin",
+      "future_stream": "streams/frame_000031_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "32": {
+      "type": "anchor",
+      "shared_anchor": 32
+    },
+    "33": {
+      "type": "inter",
+      "past_anchor": 32,
+      "future_anchor": 36,
+      "past_stream": "streams/frame_000033_past.bin",
+      "future_stream": "streams/frame_000033_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "34": {
+      "type": "inter",
+      "past_anchor": 32,
+      "future_anchor": 36,
+      "past_stream": "streams/frame_000034_past.bin",
+      "future_stream": "streams/frame_000034_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "35": {
+      "type": "inter",
+      "past_anchor": 32,
+      "future_anchor": 36,
+      "past_stream": "streams/frame_000035_past.bin",
+      "future_stream": "streams/frame_000035_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "36": {
+      "type": "anchor",
+      "shared_anchor": 36
+    },
+    "37": {
+      "type": "inter",
+      "past_anchor": 36,
+      "future_anchor": 40,
+      "past_stream": "streams/frame_000037_past.bin",
+      "future_stream": "streams/frame_000037_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "38": {
+      "type": "inter",
+      "past_anchor": 36,
+      "future_anchor": 40,
+      "past_stream": "streams/frame_000038_past.bin",
+      "future_stream": "streams/frame_000038_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "39": {
+      "type": "inter",
+      "past_anchor": 36,
+      "future_anchor": 40,
+      "past_stream": "streams/frame_000039_past.bin",
+      "future_stream": "streams/frame_000039_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "40": {
+      "type": "anchor",
+      "shared_anchor": 40
+    },
+    "41": {
+      "type": "inter",
+      "past_anchor": 40,
+      "future_anchor": 44,
+      "past_stream": "streams/frame_000041_past.bin",
+      "future_stream": "streams/frame_000041_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "42": {
+      "type": "inter",
+      "past_anchor": 40,
+      "future_anchor": 44,
+      "past_stream": "streams/frame_000042_past.bin",
+      "future_stream": "streams/frame_000042_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "43": {
+      "type": "inter",
+      "past_anchor": 40,
+      "future_anchor": 44,
+      "past_stream": "streams/frame_000043_past.bin",
+      "future_stream": "streams/frame_000043_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "44": {
+      "type": "anchor",
+      "shared_anchor": 44
+    },
+    "45": {
+      "type": "inter",
+      "past_anchor": 44,
+      "future_anchor": 48,
+      "past_stream": "streams/frame_000045_past.bin",
+      "future_stream": "streams/frame_000045_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "46": {
+      "type": "inter",
+      "past_anchor": 44,
+      "future_anchor": 48,
+      "past_stream": "streams/frame_000046_past.bin",
+      "future_stream": "streams/frame_000046_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "47": {
+      "type": "inter",
+      "past_anchor": 44,
+      "future_anchor": 48,
+      "past_stream": "streams/frame_000047_past.bin",
+      "future_stream": "streams/frame_000047_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "48": {
+      "type": "anchor",
+      "shared_anchor": 48
+    },
+    "49": {
+      "type": "inter",
+      "past_anchor": 48,
+      "future_anchor": 52,
+      "past_stream": "streams/frame_000049_past.bin",
+      "future_stream": "streams/frame_000049_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "50": {
+      "type": "inter",
+      "past_anchor": 48,
+      "future_anchor": 52,
+      "past_stream": "streams/frame_000050_past.bin",
+      "future_stream": "streams/frame_000050_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "51": {
+      "type": "inter",
+      "past_anchor": 48,
+      "future_anchor": 52,
+      "past_stream": "streams/frame_000051_past.bin",
+      "future_stream": "streams/frame_000051_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "52": {
+      "type": "anchor",
+      "shared_anchor": 52
+    },
+    "53": {
+      "type": "inter",
+      "past_anchor": 52,
+      "future_anchor": 56,
+      "past_stream": "streams/frame_000053_past.bin",
+      "future_stream": "streams/frame_000053_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "54": {
+      "type": "inter",
+      "past_anchor": 52,
+      "future_anchor": 56,
+      "past_stream": "streams/frame_000054_past.bin",
+      "future_stream": "streams/frame_000054_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "55": {
+      "type": "inter",
+      "past_anchor": 52,
+      "future_anchor": 56,
+      "past_stream": "streams/frame_000055_past.bin",
+      "future_stream": "streams/frame_000055_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "56": {
+      "type": "anchor",
+      "shared_anchor": 56
+    },
+    "57": {
+      "type": "inter",
+      "past_anchor": 56,
+      "future_anchor": 60,
+      "past_stream": "streams/frame_000057_past.bin",
+      "future_stream": "streams/frame_000057_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "58": {
+      "type": "inter",
+      "past_anchor": 56,
+      "future_anchor": 60,
+      "past_stream": "streams/frame_000058_past.bin",
+      "future_stream": "streams/frame_000058_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "59": {
+      "type": "inter",
+      "past_anchor": 56,
+      "future_anchor": 60,
+      "past_stream": "streams/frame_000059_past.bin",
+      "future_stream": "streams/frame_000059_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "60": {
+      "type": "anchor",
+      "shared_anchor": 60
+    },
+    "61": {
+      "type": "inter",
+      "past_anchor": 60,
+      "future_anchor": 64,
+      "past_stream": "streams/frame_000061_past.bin",
+      "future_stream": "streams/frame_000061_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "62": {
+      "type": "inter",
+      "past_anchor": 60,
+      "future_anchor": 64,
+      "past_stream": "streams/frame_000062_past.bin",
+      "future_stream": "streams/frame_000062_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "63": {
+      "type": "inter",
+      "past_anchor": 60,
+      "future_anchor": 64,
+      "past_stream": "streams/frame_000063_past.bin",
+      "future_stream": "streams/frame_000063_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "64": {
+      "type": "anchor",
+      "shared_anchor": 64
+    },
+    "65": {
+      "type": "inter",
+      "past_anchor": 64,
+      "future_anchor": 68,
+      "past_stream": "streams/frame_000065_past.bin",
+      "future_stream": "streams/frame_000065_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "66": {
+      "type": "inter",
+      "past_anchor": 64,
+      "future_anchor": 68,
+      "past_stream": "streams/frame_000066_past.bin",
+      "future_stream": "streams/frame_000066_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "67": {
+      "type": "inter",
+      "past_anchor": 64,
+      "future_anchor": 68,
+      "past_stream": "streams/frame_000067_past.bin",
+      "future_stream": "streams/frame_000067_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "68": {
+      "type": "anchor",
+      "shared_anchor": 68
+    },
+    "69": {
+      "type": "inter",
+      "past_anchor": 68,
+      "future_anchor": 72,
+      "past_stream": "streams/frame_000069_past.bin",
+      "future_stream": "streams/frame_000069_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "70": {
+      "type": "inter",
+      "past_anchor": 68,
+      "future_anchor": 72,
+      "past_stream": "streams/frame_000070_past.bin",
+      "future_stream": "streams/frame_000070_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "71": {
+      "type": "inter",
+      "past_anchor": 68,
+      "future_anchor": 72,
+      "past_stream": "streams/frame_000071_past.bin",
+      "future_stream": "streams/frame_000071_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "72": {
+      "type": "anchor",
+      "shared_anchor": 72
+    },
+    "73": {
+      "type": "inter",
+      "past_anchor": 72,
+      "future_anchor": 76,
+      "past_stream": "streams/frame_000073_past.bin",
+      "future_stream": "streams/frame_000073_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "74": {
+      "type": "inter",
+      "past_anchor": 72,
+      "future_anchor": 76,
+      "past_stream": "streams/frame_000074_past.bin",
+      "future_stream": "streams/frame_000074_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "75": {
+      "type": "inter",
+      "past_anchor": 72,
+      "future_anchor": 76,
+      "past_stream": "streams/frame_000075_past.bin",
+      "future_stream": "streams/frame_000075_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "76": {
+      "type": "anchor",
+      "shared_anchor": 76
+    },
+    "77": {
+      "type": "inter",
+      "past_anchor": 76,
+      "future_anchor": 80,
+      "past_stream": "streams/frame_000077_past.bin",
+      "future_stream": "streams/frame_000077_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "78": {
+      "type": "inter",
+      "past_anchor": 76,
+      "future_anchor": 80,
+      "past_stream": "streams/frame_000078_past.bin",
+      "future_stream": "streams/frame_000078_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "79": {
+      "type": "inter",
+      "past_anchor": 76,
+      "future_anchor": 80,
+      "past_stream": "streams/frame_000079_past.bin",
+      "future_stream": "streams/frame_000079_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "80": {
+      "type": "anchor",
+      "shared_anchor": 80
+    },
+    "81": {
+      "type": "inter",
+      "past_anchor": 80,
+      "future_anchor": 84,
+      "past_stream": "streams/frame_000081_past.bin",
+      "future_stream": "streams/frame_000081_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "82": {
+      "type": "inter",
+      "past_anchor": 80,
+      "future_anchor": 84,
+      "past_stream": "streams/frame_000082_past.bin",
+      "future_stream": "streams/frame_000082_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "83": {
+      "type": "inter",
+      "past_anchor": 80,
+      "future_anchor": 84,
+      "past_stream": "streams/frame_000083_past.bin",
+      "future_stream": "streams/frame_000083_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "84": {
+      "type": "anchor",
+      "shared_anchor": 84
+    },
+    "85": {
+      "type": "inter",
+      "past_anchor": 84,
+      "future_anchor": 88,
+      "past_stream": "streams/frame_000085_past.bin",
+      "future_stream": "streams/frame_000085_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "86": {
+      "type": "inter",
+      "past_anchor": 84,
+      "future_anchor": 88,
+      "past_stream": "streams/frame_000086_past.bin",
+      "future_stream": "streams/frame_000086_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "87": {
+      "type": "inter",
+      "past_anchor": 84,
+      "future_anchor": 88,
+      "past_stream": "streams/frame_000087_past.bin",
+      "future_stream": "streams/frame_000087_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "88": {
+      "type": "anchor",
+      "shared_anchor": 88
+    },
+    "89": {
+      "type": "inter",
+      "past_anchor": 88,
+      "future_anchor": 92,
+      "past_stream": "streams/frame_000089_past.bin",
+      "future_stream": "streams/frame_000089_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "90": {
+      "type": "inter",
+      "past_anchor": 88,
+      "future_anchor": 92,
+      "past_stream": "streams/frame_000090_past.bin",
+      "future_stream": "streams/frame_000090_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "91": {
+      "type": "inter",
+      "past_anchor": 88,
+      "future_anchor": 92,
+      "past_stream": "streams/frame_000091_past.bin",
+      "future_stream": "streams/frame_000091_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "92": {
+      "type": "anchor",
+      "shared_anchor": 92
+    },
+    "93": {
+      "type": "inter",
+      "past_anchor": 92,
+      "future_anchor": 96,
+      "past_stream": "streams/frame_000093_past.bin",
+      "future_stream": "streams/frame_000093_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "94": {
+      "type": "inter",
+      "past_anchor": 92,
+      "future_anchor": 96,
+      "past_stream": "streams/frame_000094_past.bin",
+      "future_stream": "streams/frame_000094_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "95": {
+      "type": "inter",
+      "past_anchor": 92,
+      "future_anchor": 96,
+      "past_stream": "streams/frame_000095_past.bin",
+      "future_stream": "streams/frame_000095_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "96": {
+      "type": "anchor",
+      "shared_anchor": 96
+    },
+    "97": {
+      "type": "inter",
+      "past_anchor": 96,
+      "future_anchor": 100,
+      "past_stream": "streams/frame_000097_past.bin",
+      "future_stream": "streams/frame_000097_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "98": {
+      "type": "inter",
+      "past_anchor": 96,
+      "future_anchor": 100,
+      "past_stream": "streams/frame_000098_past.bin",
+      "future_stream": "streams/frame_000098_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "99": {
+      "type": "inter",
+      "past_anchor": 96,
+      "future_anchor": 100,
+      "past_stream": "streams/frame_000099_past.bin",
+      "future_stream": "streams/frame_000099_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "100": {
+      "type": "anchor",
+      "shared_anchor": 100
+    },
+    "101": {
+      "type": "inter",
+      "past_anchor": 100,
+      "future_anchor": 104,
+      "past_stream": "streams/frame_000101_past.bin",
+      "future_stream": "streams/frame_000101_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "102": {
+      "type": "inter",
+      "past_anchor": 100,
+      "future_anchor": 104,
+      "past_stream": "streams/frame_000102_past.bin",
+      "future_stream": "streams/frame_000102_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "103": {
+      "type": "inter",
+      "past_anchor": 100,
+      "future_anchor": 104,
+      "past_stream": "streams/frame_000103_past.bin",
+      "future_stream": "streams/frame_000103_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "104": {
+      "type": "anchor",
+      "shared_anchor": 104
+    },
+    "105": {
+      "type": "inter",
+      "past_anchor": 104,
+      "future_anchor": 108,
+      "past_stream": "streams/frame_000105_past.bin",
+      "future_stream": "streams/frame_000105_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "106": {
+      "type": "inter",
+      "past_anchor": 104,
+      "future_anchor": 108,
+      "past_stream": "streams/frame_000106_past.bin",
+      "future_stream": "streams/frame_000106_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "107": {
+      "type": "inter",
+      "past_anchor": 104,
+      "future_anchor": 108,
+      "past_stream": "streams/frame_000107_past.bin",
+      "future_stream": "streams/frame_000107_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "108": {
+      "type": "anchor",
+      "shared_anchor": 108
+    },
+    "109": {
+      "type": "inter",
+      "past_anchor": 108,
+      "future_anchor": 112,
+      "past_stream": "streams/frame_000109_past.bin",
+      "future_stream": "streams/frame_000109_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "110": {
+      "type": "inter",
+      "past_anchor": 108,
+      "future_anchor": 112,
+      "past_stream": "streams/frame_000110_past.bin",
+      "future_stream": "streams/frame_000110_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "111": {
+      "type": "inter",
+      "past_anchor": 108,
+      "future_anchor": 112,
+      "past_stream": "streams/frame_000111_past.bin",
+      "future_stream": "streams/frame_000111_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "112": {
+      "type": "anchor",
+      "shared_anchor": 112
+    },
+    "113": {
+      "type": "inter",
+      "past_anchor": 112,
+      "future_anchor": 116,
+      "past_stream": "streams/frame_000113_past.bin",
+      "future_stream": "streams/frame_000113_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "114": {
+      "type": "inter",
+      "past_anchor": 112,
+      "future_anchor": 116,
+      "past_stream": "streams/frame_000114_past.bin",
+      "future_stream": "streams/frame_000114_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "115": {
+      "type": "inter",
+      "past_anchor": 112,
+      "future_anchor": 116,
+      "past_stream": "streams/frame_000115_past.bin",
+      "future_stream": "streams/frame_000115_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "116": {
+      "type": "anchor",
+      "shared_anchor": 116
+    },
+    "117": {
+      "type": "inter",
+      "past_anchor": 116,
+      "future_anchor": 120,
+      "past_stream": "streams/frame_000117_past.bin",
+      "future_stream": "streams/frame_000117_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "118": {
+      "type": "inter",
+      "past_anchor": 116,
+      "future_anchor": 120,
+      "past_stream": "streams/frame_000118_past.bin",
+      "future_stream": "streams/frame_000118_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "119": {
+      "type": "inter",
+      "past_anchor": 116,
+      "future_anchor": 120,
+      "past_stream": "streams/frame_000119_past.bin",
+      "future_stream": "streams/frame_000119_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "120": {
+      "type": "anchor",
+      "shared_anchor": 120
+    },
+    "121": {
+      "type": "inter",
+      "past_anchor": 120,
+      "future_anchor": 124,
+      "past_stream": "streams/frame_000121_past.bin",
+      "future_stream": "streams/frame_000121_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "122": {
+      "type": "inter",
+      "past_anchor": 120,
+      "future_anchor": 124,
+      "past_stream": "streams/frame_000122_past.bin",
+      "future_stream": "streams/frame_000122_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "123": {
+      "type": "inter",
+      "past_anchor": 120,
+      "future_anchor": 124,
+      "past_stream": "streams/frame_000123_past.bin",
+      "future_stream": "streams/frame_000123_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "124": {
+      "type": "anchor",
+      "shared_anchor": 124
+    },
+    "125": {
+      "type": "inter",
+      "past_anchor": 124,
+      "future_anchor": 127,
+      "past_stream": "streams/frame_000125_past.bin",
+      "future_stream": "streams/frame_000125_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "126": {
+      "type": "inter",
+      "past_anchor": 124,
+      "future_anchor": 127,
+      "past_stream": "streams/frame_000126_past.bin",
+      "future_stream": "streams/frame_000126_future.bin",
+      "oracle_target_at_decoder": false
+    },
+    "127": {
+      "type": "anchor",
+      "shared_anchor": 127
+    }
+  },
+  "adaptive_oracle": {
+    "enabled": false,
+    "true_It_given_directly_to_decoder": false,
+    "oracle_It_bits_counted": false
+  },
+  "note": "Shared anchor VTM bitstreams are transmitted once and reused. Dense GOP=4 demo uses gap-3-trained checkpoints."
+}

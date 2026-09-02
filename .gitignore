@@ -28,9 +28,9 @@ train-vis/
 adaptive-dists-curves/
 
 # Physical codec generated data
-shared_anchor_channel_gop4/
-physical_channel_gop4*/
-codec_recon_gop4*/
+# shared_anchor_channel_gop4/
+# physical_channel_gop4*/
+# codec_recon_gop4*/
 actual_bitstream_rates*.csv
 per_video_codec_errors.log
 

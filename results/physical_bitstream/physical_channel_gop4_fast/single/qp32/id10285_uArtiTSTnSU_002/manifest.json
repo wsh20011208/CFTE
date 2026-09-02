@@ -1,0 +1,238 @@
+{
+  "complete": true,
+  "format_version": 2,
+  "method": "single",
+  "source_video": "id10285_uArtiTSTnSU_002.mp4",
+  "qp": 32,
+  "gop": 4,
+  "num_frames": 39,
+  "residual_spatial_shape": [
+    4,
+    4
+  ],
+  "shared_anchor_manifest": "/home/featurize/work/shared_anchor_channel_gop4/qp32/id10285_uArtiTSTnSU_002/manifest.json",
+  "shared_anchor_payload_bytes": 28044,
+  "method_stream_payload_bytes": 648,
+  "total_visual_payload_bytes": 28692,
+  "total_visual_payload_bits": 229536,
+  "frames": {
+    "0": {
+      "type": "anchor",
+      "shared_anchor": 0
+    },
+    "1": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor_boundary": 4,
+      "single_stream": "streams/frame_000001_single.bin"
+    },
+    "2": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor_boundary": 4,
+      "single_stream": "streams/frame_000002_single.bin"
+    },
+    "3": {
+      "type": "inter",
+      "past_anchor": 0,
+      "future_anchor_boundary": 4,
+      "single_stream": "streams/frame_000003_single.bin"
+    },
+    "4": {
+      "type": "anchor",
+      "shared_anchor": 4
+    },
+    "5": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor_boundary": 8,
+      "single_stream": "streams/frame_000005_single.bin"
+    },
+    "6": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor_boundary": 8,
+      "single_stream": "streams/frame_000006_single.bin"
+    },
+    "7": {
+      "type": "inter",
+      "past_anchor": 4,
+      "future_anchor_boundary": 8,
+      "single_stream": "streams/frame_000007_single.bin"
+    },
+    "8": {
+      "type": "anchor",
+      "shared_anchor": 8
+    },
+    "9": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor_boundary": 12,
+      "single_stream": "streams/frame_000009_single.bin"
+    },
+    "10": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor_boundary": 12,
+      "single_stream": "streams/frame_000010_single.bin"
+    },
+    "11": {
+      "type": "inter",
+      "past_anchor": 8,
+      "future_anchor_boundary": 12,
+      "single_stream": "streams/frame_000011_single.bin"
+    },
+    "12": {
+      "type": "anchor",
+      "shared_anchor": 12
+    },
+    "13": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor_boundary": 16,
+      "single_stream": "streams/frame_000013_single.bin"
+    },
+    "14": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor_boundary": 16,
+      "single_stream": "streams/frame_000014_single.bin"
+    },
+    "15": {
+      "type": "inter",
+      "past_anchor": 12,
+      "future_anchor_boundary": 16,
+      "single_stream": "streams/frame_000015_single.bin"
+    },
+    "16": {
+      "type": "anchor",
+      "shared_anchor": 16
+    },
+    "17": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor_boundary": 20,
+      "single_stream": "streams/frame_000017_single.bin"
+    },
+    "18": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor_boundary": 20,
+      "single_stream": "streams/frame_000018_single.bin"
+    },
+    "19": {
+      "type": "inter",
+      "past_anchor": 16,
+      "future_anchor_boundary": 20,
+      "single_stream": "streams/frame_000019_single.bin"
+    },
+    "20": {
+      "type": "anchor",
+      "shared_anchor": 20
+    },
+    "21": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor_boundary": 24,
+      "single_stream": "streams/frame_000021_single.bin"
+    },
+    "22": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor_boundary": 24,
+      "single_stream": "streams/frame_000022_single.bin"
+    },
+    "23": {
+      "type": "inter",
+      "past_anchor": 20,
+      "future_anchor_boundary": 24,
+      "single_stream": "streams/frame_000023_single.bin"
+    },
+    "24": {
+      "type": "anchor",
+      "shared_anchor": 24
+    },
+    "25": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor_boundary": 28,
+      "single_stream": "streams/frame_000025_single.bin"
+    },
+    "26": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor_boundary": 28,
+      "single_stream": "streams/frame_000026_single.bin"
+    },
+    "27": {
+      "type": "inter",
+      "past_anchor": 24,
+      "future_anchor_boundary": 28,
+      "single_stream": "streams/frame_000027_single.bin"
+    },
+    "28": {
+      "type": "anchor",
+      "shared_anchor": 28
+    },
+    "29": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor_boundary": 32,
+      "single_stream": "streams/frame_000029_single.bin"
+    },
+    "30": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor_boundary": 32,
+      "single_stream": "streams/frame_000030_single.bin"
+    },
+    "31": {
+      "type": "inter",
+      "past_anchor": 28,
+      "future_anchor_boundary": 32,
+      "single_stream": "streams/frame_000031_single.bin"
+    },
+    "32": {
+      "type": "anchor",
+      "shared_anchor": 32
+    },
+    "33": {
+      "type": "inter",
+      "past_anchor": 32,
+      "future_anchor_boundary": 36,
+      "single_stream": "streams/frame_000033_single.bin"
+    },
+    "34": {
+      "type": "inter",
+      "past_anchor": 32,
+      "future_anchor_boundary": 36,
+      "single_stream": "streams/frame_000034_single.bin"
+    },
+    "35": {
+      "type": "inter",
+      "past_anchor": 32,
+      "future_anchor_boundary": 36,
+      "single_stream": "streams/frame_000035_single.bin"
+    },
+    "36": {
+      "type": "anchor",
+      "shared_anchor": 36
+    },
+    "37": {
+      "type": "inter",
+      "past_anchor": 36,
+      "future_anchor_boundary": 38,
+      "single_stream": "streams/frame_000037_single.bin"
+    },
+    "38": {
+      "type": "anchor",
+      "shared_anchor": 38
+    }
+  },
+  "adaptive_oracle": {
+    "enabled": false,
+    "true_It_given_directly_to_decoder": false,
+    "oracle_It_bits_counted": false
+  },
+  "note": "Shared anchor VTM bitstreams are transmitted once and reused. Dense GOP=4 demo uses gap-3-trained checkpoints."
+}
