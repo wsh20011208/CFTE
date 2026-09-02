@@ -37,9 +37,19 @@ import numpy as np
 from tqdm import tqdm
 
 
-WORK = Path("/home/featurize/work")
-TEST_DIR = WORK / "vox" / "test"
-CFTE_DIR = WORK / "CFTE"
+WORK = Path(
+    os.environ.get(
+        "CFTE_WORK_ROOT",
+        Path(__file__).resolve().parents[1]
+    )
+)
+TEST_DIR = Path(
+    os.environ.get(
+        "CFTE_TEST_DIR",
+        WORK / "data" / "test"
+    )
+)
+CFTE_DIR = WORK / "CFTE_Single"
 SHARED_ROOT = WORK / "shared_anchor_channel_gop4"
 
 

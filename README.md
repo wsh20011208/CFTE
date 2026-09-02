@@ -12,7 +12,7 @@ Source-code archive for the thesis **Superposition Models Using Multiple Referen
 ## Repository layout
 
 ```text
-CFTE/
+CFTE_Single/
 CFTE_NoRefine/
 CFTE_Refined_FixedCMR/
 CFTE_Refined_AdaptiveCMR/
@@ -20,6 +20,9 @@ benchmarks/
   gap3/
   gap5/
   gap7/
+data/
+  train/
+  test/
 physical_bitstream/
 ```
 
@@ -103,7 +106,14 @@ The released MP4 files are reconstruction/visualization outputs. Their MP4 conta
 
 ## Checkpoints
 
-Pretrained checkpoints are **not distributed** with this archive.
+The `v1.0.0-thesis` release provides the final epoch-199 gap-3 checkpoints for all four methods:
+
+- Single CFTE
+- NoRefine
+- FixedCMR
+- AdaptiveCMR
+
+Gap-5 and gap-7 pretrained checkpoints are not distributed with this archive.
 
 The repository contains the complete source code, gap-specific training configurations, benchmark scripts, and supplementary physical-bitstream implementation.
 
@@ -118,9 +128,13 @@ The supplementary dense GOP-4 physical-bitstream experiment uses **gap-3-trained
 
 ## Data
 
-The VoxCeleb-derived source data are not redistributed in this repository.
+The repository includes the preprocessed 256x256 train and test videos used by the thesis experiments:
 
-Configure the dataset paths for your own processed VoxCeleb data before training or evaluation.
+```text
+data/
+├── train/
+└── test/
+```
 
 ## Environment
 
