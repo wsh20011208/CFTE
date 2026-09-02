@@ -1,6 +1,8 @@
 # Temporal-Evolution-Inference-with-Compact-Feature-Representation-for-Talking-Face-Video-Compression
 
-This directory contains the reproduced **Single CFTE** baseline used in the thesis *Superposition Models Using Multiple Reference Frames for Enhanced Generative Video Quality*. This repository contains the source code for the paper [Beyond Keypoint Coding: Temporal Evolution Inference with Compact Feature Representation for Talking Face
+This directory contains the reproduced **Single CFTE** baseline used in the thesis *Superposition Models Using Multiple Reference Frames for Enhanced Generative Video Quality*. 
+
+This repository contains the source code for the paper [Beyond Keypoint Coding: Temporal Evolution Inference with Compact Feature Representation for Talking Face
 Video Compression](https://ieeexplore.ieee.org/abstract/document/9810732) by Bolin Chen, Zhao Wang, Binzhe Li, Rongqun Lin, Shiqi Wang, and Yan Ye.
 
 The DCC keynote video presented by Dr. Yan Ye can be found in https://www.youtube.com/watch?v=7en3YYT1QfU.
