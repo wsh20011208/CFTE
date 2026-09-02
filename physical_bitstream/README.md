@@ -4,9 +4,9 @@ This directory contains the scripts used for the dense GOP-4 physical-bitstream 
 
 ## Assumptions
 
-- Working root defaults to `/home/featurize/work`.
-- Processed VoxCeleb test videos are expected under `<WORK>/vox/test`.
-- The four project directories are expected under `<WORK>/CFTE*`.
+- The archived scripts were originally run with `/home/featurize/work` as the experiment working root.
+- In the original experiment environment, processed VoxCeleb test videos were located under `<WORK>/vox/test`.
+- The four project directories were located under `<WORK>/CFTE*`.
 - Gap-3-trained final checkpoints are used.
 - VTM anchors use QP 32 by default.
 - Shared anchor VTM bitstreams are generated once and reused by all methods.
@@ -16,4 +16,4 @@ This directory contains the scripts used for the dense GOP-4 physical-bitstream 
 
 The MP4 files produced by the decoder are visualization outputs. Their MP4 container size is not the transmitted bitrate.
 
-If your working root differs, set `CFTE_WORK_ROOT` for the shell wrapper and update the `WORK` constant in the Python scripts if needed.
+For a different local layout, set `CFTE_WORK_ROOT` for the shell wrapper and update the `WORK` constant in the Python scripts where required.
