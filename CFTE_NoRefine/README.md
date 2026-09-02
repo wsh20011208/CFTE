@@ -1,5 +1,7 @@
 # Temporal-Evolution-Inference-with-Compact-Feature-Representation-for-Talking-Face-Video-Compression
 
+This directory contains the **NoRefine** two-reference superposition model used in the thesis *Superposition Models Using Multiple Reference Frames for Enhanced Generative Video Quality*.
+
 This repository contains the source code for the paper [Beyond Keypoint Coding: Temporal Evolution Inference with Compact Feature Representation for Talking Face
 Video Compression](https://ieeexplore.ieee.org/abstract/document/9810732) by Bolin Chen, Zhao Wang, Binzhe Li, Rongqun Lin, Shiqi Wang, and Yan Ye.
 
@@ -29,6 +31,16 @@ python run.py
 ```
 The code will create a folder in the log directory (each run will create a time-stamped new directory).
 Checkpoints will be saved to this folder. To check the loss values during training see ```log.txt```. You can also check training data reconstructions in the ```train-vis``` subfolder. You can change the training settings in corresponding ```./config/vox-256.yaml``` file.
+
+> **Thesis archive note**
+>
+> The `Encoder.py` and `Decoder.py` files in this directory are retained from the upstream CFTE implementation for reference and compatibility.
+>
+> They are **not used to reproduce the physical-bitstream results reported in the thesis**.
+>
+> The authoritative codec path for the thesis supplementary physical-bitstream experiment is the repository-level dense GOP-4 pipeline under `../physical_bitstream/`.
+>
+> Please use that pipeline for reproduction of the GOP-4 physical-bitstream measurements reported in the thesis.
 
 ### Inference
 
