@@ -24,6 +24,7 @@ data/
   train/
   test/
 physical_bitstream/
+results/
 ```
 
 ## Exact controlled configurations
