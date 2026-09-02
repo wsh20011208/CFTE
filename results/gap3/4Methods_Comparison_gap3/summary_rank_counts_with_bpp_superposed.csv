@@ -1,0 +1,49 @@
+metric,direction,method,num_ranked_methods,rank_1,rank_2,rank_3,rank_4
+dists,lower,Single CFTE,4,1391,881,1537,11214
+dists,lower,NoRefine,4,3137,4762,5504,1620
+dists,lower,FixedCMR,4,3542,5195,4946,1340
+dists,lower,AdaptiveCMR,4,6953,4185,3036,849
+lpips,lower,Single CFTE,4,1338,299,848,12538
+lpips,lower,NoRefine,4,4158,4717,5146,1002
+lpips,lower,FixedCMR,4,4828,5159,4411,625
+lpips,lower,AdaptiveCMR,4,4699,4848,4618,858
+psnr,higher,Single CFTE,4,862,264,837,13060
+psnr,higher,NoRefine,4,7146,3878,3314,685
+psnr,higher,FixedCMR,4,4618,6380,3666,359
+psnr,higher,AdaptiveCMR,4,2397,4501,7206,919
+ssim,higher,Single CFTE,4,1368,767,1713,11175
+ssim,higher,NoRefine,4,7079,4223,3112,609
+ssim,higher,FixedCMR,4,4370,6712,3549,392
+ssim,higher,AdaptiveCMR,4,2206,3321,6649,2847
+final_dists,lower,Single CFTE,4,1391,881,1537,11214
+final_dists,lower,NoRefine,4,3137,4762,5504,1620
+final_dists,lower,FixedCMR,4,3542,5195,4946,1340
+final_dists,lower,AdaptiveCMR,4,6953,4185,3036,849
+final_lpips,lower,Single CFTE,4,1338,299,848,12538
+final_lpips,lower,NoRefine,4,4158,4717,5146,1002
+final_lpips,lower,FixedCMR,4,4828,5159,4411,625
+final_lpips,lower,AdaptiveCMR,4,4699,4848,4618,858
+final_psnr,higher,Single CFTE,4,862,264,837,13060
+final_psnr,higher,NoRefine,4,7146,3878,3314,685
+final_psnr,higher,FixedCMR,4,4618,6380,3666,359
+final_psnr,higher,AdaptiveCMR,4,2397,4501,7206,919
+final_ssim,higher,Single CFTE,4,1368,767,1713,11175
+final_ssim,higher,NoRefine,4,7079,4223,3112,609
+final_ssim,higher,FixedCMR,4,4370,6712,3549,392
+final_ssim,higher,AdaptiveCMR,4,2206,3321,6649,2847
+superposed_dists,lower,NoRefine,3,12,6456,8555,0
+superposed_dists,lower,FixedCMR,3,22,8564,6437,0
+superposed_dists,lower,AdaptiveCMR,3,14989,3,31,0
+superposed_lpips,lower,NoRefine,3,314,5326,9383,0
+superposed_lpips,lower,FixedCMR,3,347,9407,5269,0
+superposed_lpips,lower,AdaptiveCMR,3,14362,290,371,0
+superposed_psnr,higher,NoRefine,3,1923,3592,9508,0
+superposed_psnr,higher,FixedCMR,3,1987,8800,4236,0
+superposed_psnr,higher,AdaptiveCMR,3,11113,2631,1279,0
+superposed_ssim,higher,NoRefine,3,1785,3573,9665,0
+superposed_ssim,higher,FixedCMR,3,1868,8929,4226,0
+superposed_ssim,higher,AdaptiveCMR,3,11370,2521,1132,0
+bpp,lower,Single CFTE,4,15023,0,0,0
+bpp,lower,NoRefine,4,0,340,1181,13502
+bpp,lower,FixedCMR,4,0,5041,8973,1009
+bpp,lower,AdaptiveCMR,4,0,9642,4869,512

@@ -1,0 +1,7 @@
+method,gap_past,gap_future,diagnostic,num_samples,spearman_rho
+NoRefine,5,5,occlusion_mean_suppression,14191,0.42911230713329807
+NoRefine,5,5,occlusion_feature_attenuation,14191,0.4398374615799148
+FixedCMR,5,5,occlusion_mean_suppression,14191,0.38097100739948386
+FixedCMR,5,5,occlusion_feature_attenuation,14191,0.3890884330091383
+AdaptiveCMR,5,5,occlusion_mean_suppression,14191,0.4005246648683603
+AdaptiveCMR,5,5,occlusion_feature_attenuation,14191,0.4103925538359913
